@@ -1,8 +1,6 @@
 version: '3.8'
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - 8081:80
+  web :
+     image: "robinthakur00/calculator-app-react:latest"
+     ports :
+          - "8001:80"
